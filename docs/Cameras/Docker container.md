@@ -1,17 +1,38 @@
 ## Dependencies
 
 Unfortunately, this container depends on a lot of libraries, which leads to a significant image size, but none of them seem avoidable.
+
  - `vim` is useful for quickly patching files 
+
  - `git curl` are necessary for downloading rust and gst-plugins-rs
+
  - `python3-yaml python3-pyudev python3-psutil udev` are necessary for the pipeline python script
+
  - `build-essential libssl-dev libx264-dev libvpx-dev libopus-dev` are necessary for building gst-plugins-rs
+
  - `ibnice-dev gstreamer1.0-nice` these aren't mentioned anywhere in the docs and no errors show it is missing, but it is necessary for webrtcsink to function at all
+
  - `libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-good1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav` these are basic gstreamer dependencies, maybe some of them could be removed
+
  - `gstreamer1.0-tools python3-gst-1.0` are necessary for starting pipelines
  
 Additionally, we might need to add `mesa-va-drivers gstreamer1.0-vaapi va-driver-all` for hardware accelerated video decoding, but currently it doesn't work at all.
 
 ## Build stages
+
+1. Install all the dependencies
+
+2. Install [nvm](https://github.com/nvm-sh/nvm) for the gstwebrtc-api frontend
+
+3. Install [rustup](https://rustup.rs/) for building gst-plugins-rs
+
+4. Download gst-plugins-rs
+
+5. Install dependencies for gstwebrtc-api
+ 
+6. Build `webrtc`, `webrtc/signalling` and `rtp` parts of gst-plugins-rs, so we have binaries ready to run
+
+7. Copy scripts to the container and make them executable
 
 ## Interfaces
 
