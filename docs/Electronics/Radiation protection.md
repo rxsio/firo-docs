@@ -1,0 +1,5 @@
+Apparently radiadion is able to generate charges inside semiconductors and destroy thin isulators like silicon oxide commonly used in semiconductor components. This sort of behavior can lead to memory corruption which can interrupt any sequential electronic device.
+
+Luckily there ways to manufacture more radiation resistant devices. Most of them require use of different semiconductor technology. Gallium arsenide instead of silicon, SOI instead bulk technology and BJT instead of FET. Making bigger transistors also helps. There are radiation hardened integrated circuits on the market. Unfortunately we are not able to apply any of this changes.
+
+There is possible to use shields which can stop part of the radiation. Rover also would operate more reliably if it could detect errors in its memory and correct them using correction algorithm or downloading data from external, more distant, drive.
