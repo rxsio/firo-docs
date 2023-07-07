@@ -44,8 +44,10 @@ We use USB c connector but also micro USB if we have to. We can also use differe
 
 |       | Male (reciver) | Female (source) |
 |-------|----------------|-----------------|
-| Wire  | [Micro-MaTch](https://www.te.com/usa-en/product-7-215083-4.html)  | [IDC](https://www.amphenol-cs.com/quickie-71600104lf.html)           |
-| Board | [IDC](https://www.amphenol-cs.com/quickie-75869330lf.html)          | [Micro-MaTch](https://www.te.com/usa-en/product-7-215079-4.html)   |
+| Wire  | ![[match_wire_male_connection.png]]  [Micro-MaTch](https://www.te.com/usa-en/product-7-215083-4.html)  | ![[idc_wire_female_connection.png]]  [IDC](https://www.amphenol-cs.com/quickie-71600104lf.html)           |
+| Board | ![[idc_pcb_male.png]]  [IDC](https://www.amphenol-cs.com/quickie-75869330lf.html)          | ![[match_pcb_female.png]]  [Micro-MaTch](https://www.te.com/usa-en/product-7-215079-4.html)   |
+
+When making own data cable please ensure you are using ribbon cable with first wire (corresponding to first pin in each connector) thet has marking, like on pictures above. There is no need to have special splitters. To make one you will need to clamp female IDC connector anywhere on a ribbon. Unfortunately due to unaccesibility of female Micro-MaTch connectors for wires to make extender you will have to make PCB with one IDC male connector and one or more Micro-MaTch connectors.
 
 - USB A – USB, 
 - 8P8C (usually called RJ45) – Ethernet.   
