@@ -10,7 +10,7 @@ Unfortunately, this container depends on a lot of libraries, which leads to a si
 
  - `build-essential libssl-dev libx264-dev libvpx-dev libopus-dev` are necessary for building gst-plugins-rs
 
- - `ibnice-dev gstreamer1.0-nice` these aren't mentioned anywhere in the docs and no errors show it is missing, but it is necessary for webrtcsink to function at all
+ - `libnice-dev gstreamer1.0-nice` these aren't mentioned anywhere in the docs and no errors show it is missing, but it is necessary for webrtcsink to function at all
 
  - `libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-good1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav` these are basic gstreamer dependencies, maybe some of them could be removed
 

@@ -40,9 +40,9 @@ It is also a good idea to check after assembly if wires stay firm inside connect
 We use USB c connector but also micro USB if we have to. We can also use different non-standard connectors if they are more suitable.
 
 - micro-match – CAN, supply side,  
-- IDC 4 pin – CAN, reciver side,  
+- IDC 4 pin – CAN, receiver side,  
 
-|       | Male (reciver) | Female (source) |
+|       | Male (receiver) | Female (source) |
 |-------|----------------|-----------------|
 | Wire  | ![[match_wire_male_connection.png]]  [Micro-MaTch](https://www.te.com/usa-en/product-7-215083-4.html)  | ![[idc_wire_female_connection.png]]  [IDC](https://www.amphenol-cs.com/quickie-71600104lf.html)           |
 | Board | ![[idc_pcb_male.png]]  [IDC](https://www.amphenol-cs.com/quickie-75869330lf.html)          | ![[match_pcb_female.png]]  [Micro-MaTch](https://www.te.com/usa-en/product-7-215079-4.html)   |

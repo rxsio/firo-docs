@@ -1,6 +1,6 @@
 ## Basics
 
-Our camera system is based around the [[Gstreamer]] framework, which allows for easy adaptation to new hardware, gives us good performance and widely supported.
+Our camera system is based around the [[Gstreamer]] framework, which allows for easy adaptation to new hardware, gives us good performance and is widely supported.
 
 Video is provided by various USB webcams communicating using the v4l2 libraries in Linux.
 

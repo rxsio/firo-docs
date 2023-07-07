@@ -1,6 +1,6 @@
 ## USB2.0 bandwidth limit
 
-USB2.0 allows for only 500Mbit/s trasfer rate and only 80% of it can be used for streaming video. This normally wouldn't be a problem, because of video compression, but webcams are dump and massively over provision the bandwidth they need.
+USB2.0 allows for only 500Mbit/s transfer rate and only 80% of it can be used for streaming video. This normally wouldn't be a problem, because of video compression, but webcams are dump and massively over provision the bandwidth they need.
 
 To fix this, a [[UVC kernel patch]] is required.
 
@@ -8,7 +8,8 @@ To fix this, a [[UVC kernel patch]] is required.
 
 For an unknown reason, when a stream is started and stopped a couple of times on the frontend, the pipeline throws a segmentation fault. 
 
-Strangely enough, it doesn't happen when using a pipeline started with `gst-launch`.
+~~Strangely enough, it doesn't happen when using a pipeline started with `gst-launch`.~~
+(edit: I have managed to crash a pipeline started with gst-launch when running directly with Ubuntu 23.04)
 
 I was not able to prevent it from happening by making changes to the frontend.
 
