@@ -19,12 +19,26 @@ Connectors are signed as follows:
 |       | Male (reciver)         | Female (source)       |
 |-------|------------------------|-----------------------|
 | Wire  | ![[phoenix_wire_male_connection.png]]  [IC 2,5/ 2-ST-5,08](https://www.phoenixcontact.com/en-us/products/pcb-plug-ic-25-2-st-508-1786174)    | ![[phoenix_wire_female_connection.png]]  [MSTB 2,5/ 2-ST-5,08](https://www.phoenixcontact.com/en-us/products/pcb-plug-mstb-25-2-st-508-1757019) |
-| Board | ![[phoenix_pcb_male_connection.png]]  [MSTBVA 2,5/ 2-G-5,08](https://www.phoenixcontact.com/en-us/products/pcb-header-mstbva-25-2-g-508-1755736) | ![[phoenix_pcb_male_connection.png]]  [ICV 2,5/ 2-G-5,08](https://www.phoenixcontact.com/en-us/products/pcb-header-icv-25-2-g-508-1785942)   |
+| Board | ![[phoenix_pcb_male.png]]  [MSTBVA 2,5/ 2-G-5,08](https://www.phoenixcontact.com/en-us/products/pcb-header-mstbva-25-2-g-508-1755736) | ![[phoenix_pcb_female.png]]  [ICV 2,5/ 2-G-5,08](https://www.phoenixcontact.com/en-us/products/pcb-header-icv-25-2-g-508-1785942)   |
 
-All stranded (multiple thin wires inside one coating) wires cooperating with Phoenix connectors should end with end sleeves. This prevents wires from falling of the connectors and making short-circuits on circuits boards. It also boosts durability of the wire. When applying new end sleeves pay attention not to bend or twist wires. They would not fit correctly. Metal part of sleeve should not be longer than wires inside. It is also a good idea to check after assembly if wires stay firm inside connectors.
+All stranded (multiple thin wires inside one coating) wires cooperating with Phoenix connectors should end with end sleeves. This prevents wires from falling of the connectors and making short-circuits on circuits boards. It also boosts durability of the wire. When applying new end sleeves pay attention not to bend or twist wires. They would not fit correctly.
+
+![[wires_twist_overlay.png]]
+
+Metal part of sleeve should not be longer than wires inside. See the pictures below for visual reference.
+
+![[wires_length1_overlay.png]]
+![[wires_length2_overlay.png]]
+![[wires_length3_overlay.png]]
+
+It is also a good idea to check after assembly if wires stay firm inside connectors.
+
+![[wires_insert_overlay.png]]
 
 - USB C – control voltage 5V,  
-- micro USB – control voltage 5V,  
+- micro USB – control voltage 5V,
+We use USB c connector but also micro USB if we have to. We can also use different non-standard connectors if they are more suitable.
+
 - micro-match – CAN, supply side,  
 - IDC 4 pin – CAN, reciver side,  
 
