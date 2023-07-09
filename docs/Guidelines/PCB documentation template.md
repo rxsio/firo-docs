@@ -1,7 +1,9 @@
-# Project Title
+# PCB documentation template
+Replace main header "PCB documentation template" with your project title
+
 ## Overview
 **Repository:** Provide link to project repository
-Provide a brief description of the project
+Provide a brief description of the project. 
 
 ### Table of Contents
 - [[#Overview]]
