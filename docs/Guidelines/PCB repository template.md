@@ -30,4 +30,4 @@
     - README.md
 ```
 
-In README.md provide brief description of the project and direct the user to the project documentation at  https://rxsio.github.io/firo-docs/ for details
+In README.md provide brief description of the project and direct the user to the project documentation at  [https://rxsio.github.io/firo-docs/](https://rxsio.github.io/firo-docs/) for details
