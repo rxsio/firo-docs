@@ -26,7 +26,7 @@ Include an exported image of the PCB schematic.
 Optionally describe any relevant details about the schematic design
 
 ### Layout
-Include exported images of the PCB layouts
+Include exported images of the PCB layouts  
 - Combined layout with dimensions. Include all important dimensions: PCB width and height, mounting holes size and position, etc.
 - Combined layout without dimensions
 - Separate layouts for each layer
@@ -40,11 +40,11 @@ Include links to relevant reference documents such as datasheets for the compone
 Briefly describe function of the firmware. You may also describe firmware architecture, key components and dependencies.
 
 ### Usage
-Describe how to use the firmware. Include information about:
+Describe how to use the firmware. Include information about:  
 - user interfaces or commands available
 - settings, or parameters that can be customized
 
-### Development
+### Development  
 - Installing dependencies required for the development
 - Setting up development environment
 - Uploading firmware to the target device
