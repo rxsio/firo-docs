@@ -2,7 +2,7 @@
 Replace main header "PCB documentation template" with your project title
 
 ## Overview
-**Repository:** Provide link to project repository
+**Repository:** Provide link to project repository  
 Provide a brief description of the project. 
 
 ## Usage
@@ -22,14 +22,14 @@ Describe the purpose of the project and all requirements it has to fulfill
 This section should highlight the most important components and their functions. 
 
 ### Schematic
-Include an exported image of the PCB schematic.
+Include an exported image of the PCB schematic.  
 Optionally describe any relevant details about the schematic design
 
 ### Layout
 Include exported images of the PCB layouts  
-- Combined layout with dimensions. Include all important dimensions: PCB width and height, mounting holes size and position, etc.
-- Combined layout without dimensions
-- Separate layouts for each layer
+- Combined layout with dimensions. Include all important dimensions: PCB width and height, mounting holes size and position, etc.  
+- Combined layout without dimensions  
+- Separate layouts for each layer  
 Optionally describe any relevant details about the layout
 
 ### Reference Documentation
@@ -41,12 +41,12 @@ Briefly describe function of the firmware. You may also describe firmware archit
 
 ### Usage
 Describe how to use the firmware. Include information about:  
-- user interfaces or commands available
+- user interfaces or commands available  
 - settings, or parameters that can be customized
 
 ### Development  
-- Installing dependencies required for the development
-- Setting up development environment
+- Installing dependencies required for the development  
+- Setting up development environment  
 - Uploading firmware to the target device
 
 ## Manufacturing
