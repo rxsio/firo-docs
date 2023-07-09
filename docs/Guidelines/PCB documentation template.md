@@ -5,14 +5,6 @@ Replace main header "PCB documentation template" with your project title
 **Repository:** Provide link to project repository
 Provide a brief description of the project. 
 
-### Table of Contents
-- [[#Overview]]
-- [[#Usage]]
-- [[#Design]]
-- [[#Firmware]]
-- [[#Manufacturing]]
-- [[#Conclusions]]
-
 ## Usage
 Provide instructions for user how to use or interact with the PCB 
 
