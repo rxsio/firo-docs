@@ -1,6 +1,6 @@
 This page aims to provide a comprehensive description of the cable connectors used in the rover and instructions on how to use (and assemble) them correctly. Connectors that are not explicitly listed in this article should be avoided in the rover wiring.
 
-## Polarization
+## Contact gender
 Data and power cables use different connectors to prevent short circuits and assembly mistakes. The scheme follows a general rule that all sources of voltage have female connectors, whether they are on board or a wire. This setup minimizes the risk of a short circuit caused by loose metal objects dropped inside connectors. The idea is shown in the picture below.
 ![[Connectors_idea.drawio.png]]
 
