@@ -40,7 +40,8 @@ Include links to relevant reference documents such as datasheets for the compone
 Briefly describe function of the firmware. You may also describe firmware architecture, key components and dependencies.
 
 ### Usage
-Describe how to use the firmware. Include information about:  
+Describe how to use the firmware. Include information about:
+
 - user interfaces or commands available  
 - settings, or parameters that can be customized
 
