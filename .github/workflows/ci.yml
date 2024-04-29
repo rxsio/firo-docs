@@ -20,4 +20,6 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material
       - run: pip install mkdocs-roamlinks-plugin
+      - run: pip install mdx_truly_sane_lists
+      - run: pip install mdx-breakless-lists
       - run: mkdocs gh-deploy --force
