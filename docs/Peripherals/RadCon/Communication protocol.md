@@ -1,0 +1,3 @@
+- describe the communication protocol between RadCon usb and host
+- describe available commands
+- describe the responses and format

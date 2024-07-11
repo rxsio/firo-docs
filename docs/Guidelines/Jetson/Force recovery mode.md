@@ -1,0 +1,1 @@
+- describe procedure how to put Jetson Nano in Force Recovery mode and connect WSL / VM / Linux host to Jetson Nano

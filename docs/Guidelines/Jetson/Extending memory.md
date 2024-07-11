@@ -1,0 +1,1 @@
+- describe how extend memory on Jetson Nano using USB3
