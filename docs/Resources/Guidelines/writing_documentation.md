@@ -1,13 +1,13 @@
 ---
-title: Writing documentation
+title: Writing Documentation
 ---
 
 Documentation is vital for any project as it enhances communication and ensures that information is clearly conveyed. Well-crafted documentation should be accessible, readable, and understandable to its intended audience. It helps consolidate the solutions developed and facilitates onboarding new team members. This guideline aims to outline key principles for writing effective documentation and provide an overview of Markdown components for structuring content.
 
-## General rules
+## General Rules
 
 1. **Be Clear and Concise:** Use simple language, avoid jargon, and present information in a direct and succinct manner.
-2. **Organize Information Logically:** Use headings, subheadings, and bullet points for clear structure, and include a table of contents if the document is lengthy.
+2. **Organize Information Logically:** Use headings, subheadings, and bullet points for clear structure.
 3. **Provide Context:** Offer necessary background information and clearly state the purpose of each section.
 4. **Use Visual Aids:** Include diagrams, screenshots, and other visuals to enhance understanding.
 5. **Justify Design Decisions:** Explain the reasons behind design choices, including benefits and alternatives.
@@ -17,7 +17,7 @@ Documentation is vital for any project as it enhances communication and ensures 
 
 Documentation should be written in Markdown. By using various Markdown components, you can create engaging and accessible documentation. Markdown's simplicity and flexibility help enhance readability and structure, making it easier to present information effectively.
 
-### Text formatting
+### Text Formatting
 
 Basic formatting allows you to enhance text by applying styles such as bold, italic, and underline. It helps emphasize important information, improve readability, and structure content effectively.
 
@@ -158,7 +158,7 @@ Grids arrange content in a structured, multi-column layout, providing a visually
         </div>
         ````
 
-### Code blocks
+### Code Blocks
 
 Code blocks allow you to display formatted code snippets within your documentation, making it easier for readers to understand and replicate coding examples. They are essential for illustrating programming concepts, providing step-by-step instructions, and sharing command-line operations or configuration files in a clear and readable manner.
 
@@ -208,7 +208,7 @@ Admonitions in documentation allow you to draw the user's attention to important
             This is warning admonition
         ```
 
-#### Available types
+#### Available Types
 ??? note 
     Use for general important information or reminders.
 ??? abstract

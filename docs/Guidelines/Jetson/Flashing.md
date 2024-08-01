@@ -1,3 +1,0 @@
-- describe how to download image from Jetson nano and mount it to local host (backup)
-- describe how to flash new image into jetson nano
-- describe how to flash Jetson Nano with brand new built image
