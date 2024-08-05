@@ -6,7 +6,10 @@ title: Mechanical File Naming and Structure
     Write names in lowercase only. Use `_` instead of space
 
 ## Main Assembly
-`00-name` - Where name is the name of the project. Write in lowercase only. Use `_` instead of space  
+`00-name`
+
+Where:
+- `name` is the name of the project. Write in lowercase only. Use `_` instead of space  
 
 !!! example
 
@@ -23,7 +26,7 @@ Where:
 - `YY` is the number of the current subassembly  
 - `name` is a descriptive name of the subassembly. Write in lowercase only. Use `_` instead of space  
 
-Each subassembly is placed in its own dedicated folder  
+Each subassembly is placed in its own dedicated folder.
 
 ### Subassembly folder
 `AA_..._XX_YY-name`

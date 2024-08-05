@@ -1,4 +1,7 @@
-# 3D printer network setup
+---
+title: 3D Printer Network Setup
+---
+
 1. Edit `/etc/wpa_supplicant/wpa_supplicant.conf` file  
    Replace hotspot_ssid, hotspot_password, eduroam_login and eduroam_password accordingly. Eduroam configuration may vary by university.
 ```ini
