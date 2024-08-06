@@ -39,7 +39,7 @@ hide:
 - **Incident Response**  
   Providing a local view in case of incidents such as gas leaks. This is important because the accelerator tunnel cannot be accessed immediately by personnel after an incident occurs. First, the accelerator has to be shut down, and conditions in the tunnel have to be confirmed in case additional safety precautions are necessary. By providing an immediate local view, the incident can be diagnosed faster, leading to quicker repairs and shorter accelerator downtime.
 
-### Additional Functionalities
+## Additional Functionalities
 
 The FIRO robot has additional capabilities that are not specific to the needs of restricted access environments, however, they are still desired at FLASH.  
 

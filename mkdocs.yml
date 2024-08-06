@@ -117,3 +117,30 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+nav:
+  - FIRO:
+      - index.md
+      - specification.md
+  - Mechanics: []
+  - Electronics:
+      - electronics/connectors.md
+      - electronics/rover-wiring.md
+      - electronics/radiation-protection.md
+  - Software:
+      - software/index.md
+      - Cameras:
+          - software/cameras/index.md
+      - Interface:
+          - software/interface/index.md
+      - RadCon:
+          - software/radcon/index.md
+  - Resources:
+      - Guidelines:
+          - resources/guidelines/writing-documentation.md
+          - resources/guidelines/mechanical-file-naming-and-structure.md
+      - Guides:
+          - resources/guides/3d-printer-network-setup.md
+      - Templates:
+          - resources/templates/pcb-documentation-template.md
+          - resources/templates/pcb-repository-template.md
