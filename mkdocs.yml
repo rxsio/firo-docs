@@ -122,8 +122,10 @@ nav:
   - FIRO:
       - index.md
       - specification.md
-  - Mechanics: []
+  - Mechanics:
+      - mechanics/index.md
   - Electronics:
+      - electronics/index.md
       - electronics/connectors.md
       - electronics/rover-wiring.md
       - electronics/radiation-protection.md
