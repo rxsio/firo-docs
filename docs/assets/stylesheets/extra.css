@@ -50,3 +50,27 @@ a[file="file"]::after {
 a[file="file"]:hover::after {
     background-color: var(--md-accent-fg-color);
 }
+
+
+.metadata {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    opacity: 0.5;
+    font-size: 0.8em;
+}
+
+.metadata-item {
+    padding: 0 12px;
+}
+.metadata-item:first-child {
+    padding-left: 0;
+}
+.metadata-item:last-child {
+    padding-right: 0;
+}
+
+a.metadata-author,
+a.metadata-author:hover {
+    color: inherit;
+}

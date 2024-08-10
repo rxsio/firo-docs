@@ -1,21 +1,13 @@
 ---
 title: Writing Documentation
 
-version: 1.0
+version: 1.0.0
 date: 07.08.2024
 authors:
-  - Patryk Filip Gryz (pfgryz@gmail.com)
-  - John Smith (john.smith@example.com)
+  - Patryk Filip Gryz, pfgryz@gmail.com
+  - John Smith, john.smith@example.com
+  - Jan Kowalski
 ---
-
-<span markdown>
-:octicons-people-24:
-<a href="mailto:pfgryz@gmail.com">Patryk Filip Gryz</a>
-</span>
-<span markdown>
-:octicons-history-24:
-07.08.2024
-</span>
 
 Documentation is vital for any project as it enhances communication and ensures that information is clearly conveyed. Well-crafted documentation should be accessible, readable, and understandable to its intended audience. It helps consolidate the solutions developed and facilitates onboarding new team members. This guideline aims to outline key principles for writing effective documentation and provide an overview of Markdown components for structuring content.
 
