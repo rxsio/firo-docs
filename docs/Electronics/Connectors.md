@@ -35,9 +35,12 @@ All stranded (multiple thin wires inside one coating) wires cooperating with Pho
 ![[wires-twist-overlay.png]]
 
 The metal part of the sleeve should not be longer than the wires inside. See the pictures below for visual reference.
+
+<div class="image-box carousel" markdown>
 ![[wires-length-1-overlay.png]]
 ![[wires-length-2-overlay.png]]
 ![[wires-length-3-overlay.png]]
+</div>
 
 It is also a good idea to check after assembly if wires stay firmly deep inside connectors. Connectors should not hold only the very end of wires.
 ![[wires-insert-overlay.png]]

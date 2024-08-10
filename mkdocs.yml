@@ -3,9 +3,10 @@ site_name: Technical Documentation
 theme:
   name: "material"
   language: en
-
+  
   logo: assets/logo.png
   favicon: assets/favicon.ico
+  custom_dir: docs/overrides
 
   icon:
     search: octicons/search-24
@@ -36,9 +37,6 @@ theme:
     - navigation.tabs
     - navigation.path
     - navigation.footer
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
     - search.suggest
 
   palette:
@@ -109,9 +107,11 @@ plugins:
 
 extra_css:
   - assets/stylesheets/extra.css
+  - assets/stylesheets/carousel.css
   - assets/stylesheets/pins.css
 
 extra_javascript:
+  - assets/javascripts/carousel.js
   - assets/javascripts/mathjax.js
   - assets/javascripts/pins.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6

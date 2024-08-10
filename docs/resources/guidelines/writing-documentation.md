@@ -1,6 +1,21 @@
 ---
 title: Writing Documentation
+
+version: 1.0
+date: 07.08.2024
+authors:
+  - Patryk Filip Gryz (pfgryz@gmail.com)
+  - John Smith (john.smith@example.com)
 ---
+
+<span markdown>
+:octicons-people-24:
+<a href="mailto:pfgryz@gmail.com">Patryk Filip Gryz</a>
+</span>
+<span markdown>
+:octicons-history-24:
+07.08.2024
+</span>
 
 Documentation is vital for any project as it enhances communication and ensures that information is clearly conveyed. Well-crafted documentation should be accessible, readable, and understandable to its intended audience. It helps consolidate the solutions developed and facilitates onboarding new team members. This guideline aims to outline key principles for writing effective documentation and provide an overview of Markdown components for structuring content.
 
@@ -303,6 +318,7 @@ Pins allow for placing annotations on images, which can be useful for highlighti
 - `pin-big`: Enlarges the pin.
 - `pin-contrast`: Creates a high-contrast pin.
 - `data-x` and `data-y`: Set the pin's position as a percentage on the image.
+- `data-id`: Sets the index of the image to which the pin belongs. Indexing starts from `0`
 
 ???+ example
 
@@ -311,7 +327,7 @@ Pins allow for placing annotations on images, which can be useful for highlighti
         <div class="image-box pins annotate" markdown>
         ![Image title](https://dummyimage.com/600x200/eee/aaa){ align=center }
 
-        <span class="pin pin-big pin-contrast" data-x="0.5" data-y="0.5">(1)</span>
+        <span class="pin pin-big pin-contrast" data-x="0.5" data-y="0.5" data-id="0">(1)</span>
         </div>
 
         1. This is center of image
@@ -322,13 +338,58 @@ Pins allow for placing annotations on images, which can be useful for highlighti
         <div class="image-box pins annotate" markdown>
         ![Image title](https://dummyimage.com/600x200/eee/aaa){ align=center }
 
-        <span class="pin pin-big pin-contrast" data-x="0.5" data-y="0.5">(1)</span>
+        <span class="pin pin-big pin-contrast" data-x="0.5" data-y="0.5" data-id="0">(1)</span>
         </div>
 
-        2. This is center of image
+        1. This is center of image
         ```
 
+### Carousel
 
+The carousel feature allows for displaying multiple images in a slideshow format. Users can navigate through the images to get a comprehensive view.
+
+???+ example
+
+    === "Content"
+
+        <div class="image-box carousel center" markdown>
+        ![Image title](https://dummyimage.com/300x200/eee/aaa){ align=center }
+        ![Image title](https://dummyimage.com/600x200/000/fff){ align=center }
+        </div>
+
+    === "Markdown"
+
+        ```md
+        <div class="image-box carousel center" markdown>
+        ![Image title](https://dummyimage.com/300x200/eee/aaa){ align=center }
+        ![Image title](https://dummyimage.com/600x200/000/fff){ align=center }
+        </div>
+        ```
+
+???+ example "Example: Mixing with pins"
+    === "Content"
+
+        <div class="image-box carousel pins annotate center" markdown>
+        ![Image title](https://dummyimage.com/300x200/eee/aaa){ align=center }
+        ![Image title](https://dummyimage.com/600x200/000/fff){ align=center }
+
+        <span class="pin pin-big pin-contrast" data-x="0.5" data-y="0.5" data-id="1">(1)</span>
+        <span class="pin pin-big pin-contrast" data-x="0.2" data-y="0.5" data-id="0">(2)</span>
+        </div>
+
+        1. This is center of second image
+        2. Left side of first image
+
+    === "Markdown"
+
+        ```md
+        <div class="image-box carousel center" markdown>
+        ![Image title](https://dummyimage.com/600x200/eee/aaa){ align=center }
+
+        ![Image title](https://dummyimage.com/600x200/000/fff){ align=center }
+
+        </div>
+        ```
 
 ### Footnotes
 
@@ -454,4 +515,21 @@ Diagrams visually represent complex concepts, processes, or relationships, makin
             System B: [0.6, 0.3]
             Procedure X: [0.4, 0.6]
         ```
+        ````
+
+### File Button
+
+!!! outdated
+    Missing description
+
+???+ example
+
+    === "Content"
+
+        The component datasheet is available here: [[IDC_F_datasheet.pdf]]{ file }
+
+    === "Markdown"
+
+        ````md
+        The component datasheet is available here: [[IDC_F_datasheet.pdf]]{ file }
         ````
