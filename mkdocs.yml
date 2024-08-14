@@ -1,5 +1,6 @@
 site_name: Technical Documentation
 
+# Theme
 theme:
   name: "material"
   language: en
@@ -60,7 +61,6 @@ theme:
 
 # Extensions
 markdown_extensions:
-  - footnotes
   - attr_list
   - md_in_html
   - tables

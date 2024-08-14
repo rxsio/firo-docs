@@ -1,12 +1,10 @@
 ---
 title: Writing Documentation
 
-version: 1.0.0
-date: 07.08.2024
+version: 0.1.0
+date: 14.08.2024
 authors:
   - Patryk Filip Gryz, pfgryz@gmail.com
-  - John Smith, john.smith@example.com
-  - Jan Kowalski
 ---
 
 Documentation is vital for any project as it enhances communication and ensures that information is clearly conveyed. Well-crafted documentation should be accessible, readable, and understandable to its intended audience. It helps consolidate the solutions developed and facilitates onboarding new team members. This guideline aims to outline key principles for writing effective documentation and provide an overview of Markdown components for structuring content.
@@ -20,10 +18,21 @@ Documentation is vital for any project as it enhances communication and ensures 
 5. **Justify Design Decisions:** Explain the reasons behind design choices, including benefits and alternatives.
 6. **Update Regularly:** Review and revise the documentation periodically to ensure it remains accurate and reflects any changes in the project.
 
-## File Naming
+## Creating New Page
 
-- Files should be in lowercase, using - instead of spaces.
-- Folders should be in lowercase and organized hierarchically.
+To create a new documentation page:
+
+- create a new file in the folder that best fits the topic you're working on.
+- ensure that you adhere to the hierarchical folder structure.
+- use the appropriate file naming convention.
+- add the page to the navigation.
+- provide the correct metadata description. siusiak
+- use rich Markdown components.
+
+### File Naming
+
+- files should be in lowercase, using `-` instead of spaces.
+- folders should be in lowercase and organized hierarchically.
 
 !!! example
 
@@ -44,15 +53,50 @@ Documentation is vital for any project as it enhances communication and ensures 
                 └── pcb-repository-template.md
     ```
 
+### Navigation
+
+To add a page to the navigation:
+
+- edit the `nav` section in the `mkdocs.yml` file.
+- add a new entry under the appropriate category that corresponds to your page.
+
+```yaml
+nav:
+  - Other Category:
+      - other-category/other-file.md
+  - Your Section Name:
+      - your-section-name/other-file.md
+      - Your Subsection Name:
+          - your-section-name/your-subsection-name/your-file.md # <-- YOUR ENTRY
+```
+
+!!! note
+
+    Order of entries in the file reflects the order in the documentation.
+
 ### Metadata
 
-Metadata allows to edit various things about documentation page eg. title.
+Metadata allows you to edit various aspects of a documentation page. Currently, the documentation supports the following fields:
+
+- Title
+- Authors
+- Date
+- Version
+
+!!! note
+    
+    The title and authors are mandatory fields that must be included in the page metadata.
 
 !!! example
 
     ```md
     ---
     title: Your Title
+    authors:
+      - John Smith, smith@example.com
+      - Jan Kowalski, jan-kowalski@example.com
+    version: 1.0
+    date: 14.08.2024
     ---
 
     Content
@@ -60,7 +104,7 @@ Metadata allows to edit various things about documentation page eg. title.
 
 ## Markdown
 
-Documentation should be written in Markdown. By using various Markdown components, you can create engaging and accessible documentation. Markdown's simplicity and flexibility help enhance readability and structure, making it easier to present information effectively.
+Documentation should be written in Markdown. By using various Markdown components, you can create engaging and accessible documentation.
 
 ### Text Formatting
 
@@ -241,16 +285,22 @@ Admonitions in documentation allow you to draw the user's attention to important
         !!! note
             This is note admonition
 
-        !!! warning
-            This is warning admonition
+        ???+ warning
+            This is warning admonition. It is auto expanded
+
+        ??? danger
+            This is danger admonition. You can expand this admonition
 
     === "Markdown"
         ```md
         !!! note
             This is note admonition
 
-        !!! warning
-            This is warning admonition
+        ???+ warning
+            This is warning admonition. It is auto expanded
+
+        ??? danger
+            This is danger admonition. You can expand this admonition
         ```
 
 #### Available Types
@@ -280,10 +330,12 @@ Admonitions in documentation allow you to draw the user's attention to important
     Highlight significant quotes or key statements.
 ??? outdated
     Marks outdated section of the documentation
+??? expand
+    As placeholder for planning structure of page
 
 ### Annotations
 
-Annotations are little markers that can be added almost anywhere in document. When users click on or focus these markers, a tooltip appears with expandable content. You can use tchem to add additional content for some topics.
+Annotations are little markers that can be added almost anywhere in document. When users click on or focus these markers, a tooltip appears with expandable content. You can use them to add additional content for some topics.
 
 ???+ example
 
@@ -511,8 +563,7 @@ Diagrams visually represent complex concepts, processes, or relationships, makin
 
 ### File Button
 
-!!! outdated
-    Missing description
+The File Button creates a link to a downloadable file. This allows you to highlight documents available for download.
 
 ???+ example
 
