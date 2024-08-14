@@ -1,3 +1,13 @@
+---
+title: PCB Repository Tempalte
+---
+
+## Repository Description
+
+In `README.md`, give a short summary of the project and guide users to the full documentation at [https://rxsio.github.io/firo-docs/](https://rxsio.github.io/firo-docs/) for details. 
+
+## Repository Structure
+
 ```yaml
 - Project Name:
 	- Gerber:
@@ -29,5 +39,3 @@
 	    - project.pro
     - README.md
 ```
-
-In README.md provide brief description of the project and direct the user to the project documentation at  [https://rxsio.github.io/firo-docs/](https://rxsio.github.io/firo-docs/) for details
