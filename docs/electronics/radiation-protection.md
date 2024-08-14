@@ -2,6 +2,9 @@
 title: Radiation Protection
 ---
 
+!!! outdated
+    This section need update
+
 ## Radiation effects on electronics
 Apparently radiation is able to generate charges inside semiconductors and destroy thin insulators like silicon oxide commonly used in semiconductor components. This sort of behavior can lead to memory corruption which can interrupt any sequential electronic device. The damage can be temporary if only one or few bits get changed. Also there is a risk of latch-up in logic circuitry. Damage can also be permanent.
 

@@ -2,6 +2,9 @@
 title: Connectors
 ---
 
+!!! outdated
+    This section need update
+
 This page aims to provide a comprehensive description of the cable connectors used in the rover and instructions on how to use (and assemble) them correctly. Connectors that are not explicitly listed in this article should be avoided in the rover wiring.
 
 ## Overview

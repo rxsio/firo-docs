@@ -4,10 +4,9 @@ title: Software Overview
 
 Software overview
 
-!!! outdated
-    This section need expansion
-
-    Write short decsription about software for:
+!!! expand
+    This section needs additional information
+    
     - ROS2
     - Interface
     - Cameras
