@@ -576,3 +576,19 @@ The File Button creates a link to a downloadable file. This allows you to highli
         ````md
         The component datasheet is available here: [[IDC_F_datasheet.pdf]]{ file } or here (force download) [[IDC_F_datasheet.pdf]]{ file download }
         ````
+
+### Video
+
+Video allows you to embed a video directly into your web page.
+
+???+ example
+
+    === "Content"
+
+        ![type:video](https://www.youtube.com/embed/oy2zDJPIgwc)
+
+    === "Markdown"
+
+        ````md
+        ![type:video](https://www.youtube.com/embed/oy2zDJPIgwc)
+        ````
