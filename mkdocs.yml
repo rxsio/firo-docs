@@ -136,6 +136,7 @@ nav:
           - electronics/pcb/index.md
   - Software:
       - software/index.md
+      
       - Interface:
           - software/interface/index.md
       - Cameras:
@@ -150,6 +151,7 @@ nav:
       - Contribution:
           - resources/contribution/writing-documentation.md
       - Software:
+          - resources/software/repository-structure.md
           - resources/software/learning-ros.md
           - resources/software/writing-ros-packages.md
       - Electronics:
