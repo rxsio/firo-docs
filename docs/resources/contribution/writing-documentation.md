@@ -85,7 +85,7 @@ Metadata allows you to edit various aspects of a documentation page. Currently, 
 
 !!! note
     
-    The title and authors are mandatory fields that must be included in the page metadata.
+    The title and authors are mandatory fields that must be included in the page metadata. Author's email address should be put after `,`.
 
 !!! example
 
@@ -563,16 +563,16 @@ Diagrams visually represent complex concepts, processes, or relationships, makin
 
 ### File Button
 
-The File Button creates a link to a downloadable file. This allows you to highlight documents available for download.
+The File Button creates a link to a downloadable file. This allows you to highlight documents available for download. By default, the file will be opened by the browser (if the browser supports this feature). If you want to force the file to be downloaded rather than opened, add the download attribute to the link.
 
 ???+ example
 
     === "Content"
 
-        The component datasheet is available here: [[IDC_F_datasheet.pdf]]{ file }
+        The component datasheet is available here: [[IDC_F_datasheet.pdf]]{ file } or here (force download) [[IDC_F_datasheet.pdf]]{ file download }
 
     === "Markdown"
 
         ````md
-        The component datasheet is available here: [[IDC_F_datasheet.pdf]]{ file }
+        The component datasheet is available here: [[IDC_F_datasheet.pdf]]{ file } or here (force download) [[IDC_F_datasheet.pdf]]{ file download }
         ````
