@@ -26,7 +26,7 @@ To create a new documentation page:
 - ensure that you adhere to the hierarchical folder structure.
 - use the appropriate file naming convention.
 - add the page to the navigation.
-- provide the correct metadata description. siusiak
+- provide the correct metadata description.
 - use rich Markdown components.
 
 ### File Naming
