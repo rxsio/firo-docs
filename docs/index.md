@@ -24,7 +24,7 @@ hide:
 
 ---
 
-![[firo_in-flash2.jpg]]
+![[firo-in-flash2.jpg]]
 
 **FIRO** is a mobile robot designed to operate in environments where human presence is restricted due to hazardous radiation levels. It is a student project developed mostly during Erasmus internships at the FLASH particle accelerator at DESY (hence the name of the robot). FIRO's capabilities are primarily driven by FLASH demands and requirements.
 
