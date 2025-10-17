@@ -1,3 +1,11 @@
+---
+title: Autonomous Navigation
+
+version: 1.0.0
+date: 16.10.2025
+authors:
+  - Kacper Marchlewicz, marchlewicz.kac@gmail.com
+---
 ## Sensors
 Firo is equipped with three LiDAR scanners:
 
@@ -5,7 +13,7 @@ Firo is equipped with three LiDAR scanners:
 - **Two vertical side LiDARs** – mounted on both sides of the robot. Their data is filtered so they only detect obstacles below **1.5 m** in height (slightly higher than Firo’s mast).  
   These scanners prevent the robot from attempting to pass under low shelves or slopes.
 
----
+
 
 ## Odometry and Data Fusion
 Firo uses three odometry sources — **wheel**, **LiDAR**, and **IMU** — which are fused together:
@@ -27,7 +35,7 @@ Currently, odometry quality is acceptable but not sufficient for continuous SLAM
 - Consider using a **faster, higher-quality LiDAR**, as the current one produces noisy RF2O odometry data.
 ![[odometry_linear.gif]]
 ![[odometry_angular.gif]]
----
+
 
 ## SLAM
 Firo uses the **SLAM Toolbox** for map building.
@@ -35,7 +43,7 @@ Firo uses the **SLAM Toolbox** for map building.
 - Map quality is generally acceptable, though multiple mapping attempts may be needed due to odometry imperfections.  
 - Currently, map building is performed as a **separate step**, because simultaneous SLAM and navigation require better odometry accuracy than currently available.
 
----
+
 
 ## Navigation
 Firo’s navigation system is based on the **Nav2 framework**.
@@ -65,7 +73,7 @@ Navigation works fine:
   1. **Costmap shifting** during rotation (likely odometry error).  
   2. **Path following** – occasionally, instead of turning in place, the robot tries to follow a curved path and fails to reach the target (likely controller cost weighting issue).
 
----
+
 
 ## Docking
 Docking is based on the **ICP (Iterative Closest Point)** algorithm.

@@ -145,7 +145,7 @@ nav:
       - Cameras:
           - software/cameras/index.md
       - ROS2:
-          - software/ros2/index.md
+          - software/ros2/autonomous-navigation.md
       - DevOps:
           - software/devops/index.md
       - RadCon:
